@@ -1,5 +1,4 @@
-```cpp
-<pre>
+
 #import "GLProgram.h"
 
 // Base classes
@@ -169,5 +168,4 @@
 #import "GPUImageJFAVoroniFilter.h"
 #import "GPUImageVoroniConsumerFilter.h"
 
-</pre>
-```
+
