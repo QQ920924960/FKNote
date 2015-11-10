@@ -9,3 +9,19 @@
 #####5、默认情况下，任何block都是在栈空间中，随时可能会被回收
 
 #####6、对block做一次copy操作，block的内存就会放到堆里面
+
+
+####用typedef定义block
+
+
+  *定义
+```
+typedef int (^blockType)(int, int);
+```
+
+  *实现
+```
+blockType block1 = ^(int a, int b){
+        return a+b;
+};
+```
