@@ -15,12 +15,12 @@
 
 
   *定义
-```
+``` objc
 typedef int (^blockType)(int, int);
 ```
 
   *实现
-```
+``` objc
 blockType block1 = ^(int a, int b){
         return a+b;
 };
